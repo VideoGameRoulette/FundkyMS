@@ -6,8 +6,6 @@ Template of EN Stack for Fundky
 
 ![express](https://raw.githubusercontent.com/VideoGameRoulette/PERN/main/readme/Express.png)
 ![node](https://raw.githubusercontent.com/VideoGameRoulette/PERN/main/readme/Node.png)
-![nodemon](https://raw.githubusercontent.com/VideoGameRoulette/PERN/main/readme/Nodemon.png)
-![docker](https://raw.githubusercontent.com/VideoGameRoulette/PERN/main/readme/Docker.png)
 
 ## What is EN Stack?
 E - Express.js (Backend)
