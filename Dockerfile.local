@@ -7,4 +7,4 @@ ADD package.json package-lock.json /code/
 
 RUN npm install
 
-CMD nodemon index
+CMD npm run dev
