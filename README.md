@@ -22,12 +22,12 @@ N - Node.js (Backend)
 `npm run prod`
 
 ## Microservice Browser URL
-`change the number at end of url to your campaign id`
+`id: campaign id represented as number` `ex. http://localhost:5000/polls/1`
 
-[http://localhost:5000/polls/:id](http://localhost:5000/polls/1)
+[http://localhost:5000/polls/:id](http://localhost:5000/polls/)
 
-[http://localhost:5000/milestones/:id](http://localhost:5000/milestones/1)
+[http://localhost:5000/milestones/:id](http://localhost:5000/milestones/)
 
-[http://localhost:5000/donations/total/:id](http://localhost:5000/donations/total/1)
+[http://localhost:5000/donations/total/:id](http://localhost:5000/donations/total/)
 
-[http://localhost:5000/donations/list/:id](http://localhost:5000/donations/list/1)
+[http://localhost:5000/donations/list/:id](http://localhost:5000/donations/list/)
