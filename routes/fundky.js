@@ -1,6 +1,8 @@
 const axios = require('axios');
 
 module.exports = (app) => {
+    const API = process.env.FUNDKY_URL || 'https://live.dev.fundky.com/en/api';
+
     app.get('/polls/:id', async (req, res) => {
         try {
             const polls = await axios({

@@ -4,7 +4,6 @@ const app = express();
 
 const cors = require('cors');
 
-const API = process.env.FUNDKY_URL || 'https://live.dev.fundky.com/en/api';
 const PORT = process.env.PORT || 5000;
 
 app.use(cors());
