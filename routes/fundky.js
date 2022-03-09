@@ -3,7 +3,7 @@ const axios = require('axios');
 module.exports = (app) => {
     const API = process.env.FUNDKY_URL || 'https://live.dev.fundky.com/en/api';
 
-    app.get('/polls/:id', async (req, res) => {
+    app.get('/api/polls/:id', async (req, res) => {
         try {
             const polls = await axios({
                 method: 'get',
@@ -19,7 +19,7 @@ module.exports = (app) => {
         }
     });
 
-    app.get('/milestones/:id', async (req, res) => {
+    app.get('/api/milestones/:id', async (req, res) => {
         try {
             const milestones = await axios({
                 method: 'get',
@@ -34,7 +34,7 @@ module.exports = (app) => {
         }
     });
 
-    app.get('/donations/total/:id', async (req, res) => {
+    app.get('/api/donations/total/:id', async (req, res) => {
         try {
             const donations = await axios({
                 method: 'get',
@@ -49,7 +49,7 @@ module.exports = (app) => {
         }
     });
 
-    app.get('/donations/list/:id', async (req, res) => {
+    app.get('/api/donations/list/:id', async (req, res) => {
         try {
             const donations = await axios({
                 method: 'get',
