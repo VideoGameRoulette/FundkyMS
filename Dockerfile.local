@@ -3,7 +3,7 @@ FROM node:16
 RUN mkdir /code
 WORKDIR /code
 
-ADD package.json package-lock.json /code/
+ADD package.json package-lock.json yarn.lock /code/
 
 RUN npm install
 
