@@ -11,4 +11,4 @@ app.use(express.json());
 
 require('./routes/fundky')(app);
 
-app.listen(PORT, () => console.log('Fundky Microservice listening on http://localhost:' + PORT))
+app.listen(PORT, () => console.log('Fundky Backend listening on http://localhost:' + PORT))
